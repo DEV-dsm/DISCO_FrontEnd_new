@@ -7,7 +7,7 @@ function AuthButton({ text, onClick }) {
 
 const Btn = styled.button`
   margin-top: 20px;
-  width: 27%;
+  width: 530px;
   height: 45px;
   border: 0;
   border-radius: 10px;

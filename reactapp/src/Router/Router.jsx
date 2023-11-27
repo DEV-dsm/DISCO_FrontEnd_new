@@ -22,9 +22,9 @@ const Router = () => {
         <Route path="/UserLeave" element={<UserLeave />} />
         <Route path="/FindId" element={<FindId />} />
         <Route path="/FindPw" element={<FindPw />} />
-        <Route path="/CheckID" element={<CheckID />} />
-        <Route path="/CheckPW" element={<CheckPW />} />
-        <Route path="/ChangePassWord" element={<ChangePassWord />} />
+        <Route path="/CheckId" element={<CheckID />} />
+        <Route path="/CheckPw" element={<CheckPW />} />
+        <Route path="/ChangePw" element={<ChangePassWord />} />
         <Route path="/Error" element={<Error />} />
         <Route path="/MainPage" element={<MainPage />} />
         <Route path="/DiaryPage" element={<DiaryPage />} />

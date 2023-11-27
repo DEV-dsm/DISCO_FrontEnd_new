@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
  */
 
 export default function UserLeave() {
-  const [inputText, setInputText] = useState(0);
+  const [inputText, setInputText] = useState("");
   const navigate = useNavigate();
 
   const handleInputChange = (e) => {

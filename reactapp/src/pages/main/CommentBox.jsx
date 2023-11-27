@@ -6,12 +6,12 @@ import CommentBoxTag from "./CommentBoxTag";
  * @return 답글 및 대댓글 컴포넌트
  */
 
-export default function Comment() {
+export default function CommentBox() {
   return (
     <>
       <CommentUpload>
         <PostedComment>
-          <Comment>댓글입니다 댓글입니다 이것은 댓글</Comment>
+          <CommentText>댓글입니다 댓글입니다 이것은 댓글</CommentText>
           <CommentBoxTag />
           <Reply>
             <CommentText>

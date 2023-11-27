@@ -82,7 +82,7 @@ const Input = styled.input`
   margin-bottom: 25px;
   padding-left: 20px;
   display: inline-block;
-  width: 27%;
+  width: 530px;
   height: 45px;
   font-size: 16px;
   font-weight: 500;
@@ -98,7 +98,7 @@ const PositionBtn = styled.button`
   position: absolute;
   color: #0e1385;
   background-color: transparent;
-  right: 620px;
+  margin-left: 400px;
   top: 10px;
   border: 0;
   font-size: 16px;
