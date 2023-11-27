@@ -1,12 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Top from "../../components/common/Top";
 import { ReactComponent as Pen } from "../../assets/Pen.svg";
 import { ReactComponent as Book } from "../../assets/Book.svg";
-
-/**
- * @return 다이어리
- */
+import Top from "../../components/common/Top";
 
 export default function DiaryPage() {
   return (

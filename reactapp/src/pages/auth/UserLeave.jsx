@@ -17,7 +17,7 @@ export default function UserLeave() {
 
   const handleUserDelete = async (e) => {
     e.preventDefault();
-    if (inputText !== "Dev Is Community") {
+    if (inputText.toString() !== "Dev Is Community") {
       return alert("문장이 올바르지 않습니다");
     }
     try {
