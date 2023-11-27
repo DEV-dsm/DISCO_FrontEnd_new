@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import AuthButton from "../../components/common/AuthButton";
-import { useRecoilValue } from "recoil";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
