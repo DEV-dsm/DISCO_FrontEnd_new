@@ -6,11 +6,7 @@ import { ReactComponent as Profile } from "../../assets/Profile.svg";
 import { ReactComponent as ShareMark } from "../../assets/ShareMark.svg";
 import { useNavigate } from "react-router-dom";
 
-/**
- * @return 마이페이지
- */
-
-export default function MyPageCompo() {
+export default function MyPage() {
   const [isLogin, setIsLogin] = useState(true);
   const navigate = useNavigate();
   //isLogin(true);
