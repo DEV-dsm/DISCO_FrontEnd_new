@@ -1,10 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
 import { ReactComponent as Pen } from "../../assets/Pen.svg";
 import { ReactComponent as Book } from "../../assets/Book.svg";
 import Top from "../../components/common/Top";
+import DiaryModal from "../../components/main/DiaryModal"
 
 export default function DiaryPage() {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const showModal = () => {
+    setModalOpen(true);
+  }
   return (
     <>
       <Container>
@@ -24,7 +30,8 @@ export default function DiaryPage() {
         <Post>
           <PostText>이것은 게시물 제목입니다.</PostText>
           <ButtonDelete>삭제</ButtonDelete>
-          <ButtonChange>수정</ButtonChange>
+          <ButtonChange onClick={showModal}>수정</ButtonChange>
+          {modalOpen && <DiaryModal setModalOpen={setModalOpen} />}
         </Post>
       </Container>
     </>
