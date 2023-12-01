@@ -26,12 +26,6 @@ export default function FindId() {
     }
   };
 
-  //const handleVerificationCode = () => {};
-
-  const gotoLogin = () => {
-    navigate("/LoginPage");
-  };
-
   return (
     <>
       <Container>
@@ -52,7 +46,7 @@ export default function FindId() {
             value={verificationCode}
             onChange={(e) => setverificationCode(e.target.value)}
           />
-          <AuthButton text="로그인 하러가기" onClick={gotoLogin} />
+          <AuthButton text="로그인 하러가기" onClick={() => navigate('/LoginPage')} />
         </InputBox>
         <Member>
           <MemberP>아직 회원이 아니신가요?</MemberP>
