@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import MainWritingBorder from "./MainWritingBorder";
 import MainMyInformation from "./MainMyInformation";
-import MainElement from "./MainElememt";
 
 /**
  * @return 메인 컨테이너
@@ -13,7 +12,6 @@ export default function MainContainer() {
     <Container>
       <MainWritingBorder />
       <MainMyInformation />
-      <MainElement />
     </Container>
   );
 }
