@@ -2,11 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import {ReactComponent as Modal} from "../../assets/Modal.svg";
 
-export default function DiaryModal ({setModalOpen}) {
+export default function DiaryModal({ setModalOpen }) {
+
   const closeModal = () => {
     setModalOpen(false)
   }
-  
+
   return (
     <>
       <ModalBox>
