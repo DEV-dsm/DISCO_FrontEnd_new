@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import CommentContainer from "./CommentContainer";
+import MainElement from "./MainElememt";
 
 /**
  * @return 업로드 된 게시물 컴포넌트 (좌측 게시물)
@@ -21,6 +22,7 @@ export default function MainBorder() {
           </WriteText>
           <CommentContainer />
         </WritingBorder>
+        <MainElement />
       </WritingBackGround>
     </>
   );

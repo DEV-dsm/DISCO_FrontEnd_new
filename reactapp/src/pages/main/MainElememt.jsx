@@ -37,25 +37,25 @@ const Title = styled.p`
 
 const Front = styled.div`
   position: absolute;
-  top: 240px;
-  left: 380px;
+  top: 30px;
+  left: -20px;
 `;
 
 const Back = styled.div`
   position: absolute;
-  top: 224px;
-  left: 360px;
+  top: 15px;
+  left: -35px;
   z-index: -1;
 `;
 
 const Up = styled.div`
   position: absolute;
-  top: 260px;
-  left: 1015px;
+  top: 40px;
+  left: 620px;
 `;
 
 const Down = styled.div`
   position: absolute;
-  top: 700px;
-  left: 1015px;
+  top: 500px;
+  left: 620px;
 `;
